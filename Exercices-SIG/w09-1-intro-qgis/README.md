@@ -32,7 +32,7 @@ Vous trouverez également une documentation détaillée (dans de multiples langu
 
 La vidéo [«Les premiers pas avec QGIS»](https://youtu.be/1cEPEv934KE) donne une introduction sur les manipulations de base dans un SIG. La vidéo explique notamment le chargement des couches vectorielels et ratser, tout comme la définition d'un style simple ainsi le principe de l'ordre des couches et la consultation de la table d'attributs. Il est également montré comment modifier le système de coordonnées d'affichage de la carte (donc le système de coordonnées d'affichage du projet SIG, et non pas le changement du système de coordonnées des données).
 
-Téléchargez également les données utilisées dans la vidéo depuis l'URL suivante: [https://geoinformatique.ch/donnees](https://geoinformatique.ch/donnees).
+Téléchargez également les données utilisées dans la vidéo depuis l'URL suivante: [https://geoinformatique.ch/data/gis-starter-data](https://geoinformatique.ch/data/gis-starter-data).
 
 
 ...
@@ -86,8 +86,6 @@ Veuillez également consulter la description de ce service offert par Swisstopo 
 La configuration du service WMS doit être faite en principe qu'une fois, QGIS gardera en mémoire la configuration.
 
 
-...
-
 
 ## 5. Organiser correctement un projet QGIS
 
@@ -116,11 +114,3 @@ De manière pratique, il y a plusieurs façon d'organiser les données et les pr
 
 La vidéo [«QGIS: Structurer les fichiers et dossiers de vos projets SIG»](https://youtu.be/ROI3_h5cFvg) montre cette structure de manière concrète.
 
-
-### Exercice
-
-Créez la structure décrite ci-dessus sur votre ordinateur. Ensuite:
-
-1. Insérez les données téléchargées à l'étape 1 (les «GIS Starter Data») et déposez les dans le dossier approprié.
-
-2. Créez ensuite un dossier de projets pour votre projet individuel selon les instructions données dans la section correspondante.
