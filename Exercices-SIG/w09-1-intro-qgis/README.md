@@ -40,7 +40,7 @@ Téléchargez également les données utilisées dans la vidéo depuis l'URL sui
 
 ## 3. Définition du système de coordonnées d'une couche et projection
 
-Consultez la vidéo ...
+Consultez la vidéo [«QGIS: Gérer les systèmes de coordonnées et projections»](https://youtu.be/jqEdzv-WsLc).
 
 Il est important de distinguer le système de référence spatial (SRS) d'affichage du projet SIG et le système de coordonnées utilisé pour encoder les coordonnées dans les données vectorielles ou raster.
 
@@ -70,7 +70,7 @@ Il faut être conscient que **les données WMS sont des images**. Ceci a l'avant
 
 QGIS permet d'ajouter plusieurs serveurs WMS, et chaque serveur WMS possède généralement plusieurs couches d'informations qui peuvent être ajoutées à la carte.
 
-Consultez la vidéo ... pour voir comment ajouter le serveur WMS de Swisstopo. Grâce à ce serveur, vous pouvez ajouter presque toutes les couches disponibles dans le [portail cartographique de la Confédération](https://map.geo.admin.ch) directement dans votre SIG (mais toujours sous forme d'image...).
+Consultez la vidéo [«QGIS: Ajouter un service WMS ou WMTS»](https://youtu.be/voNmaJE1HE4) pour voir comment ajouter le serveur WMS de Swisstopo. Grâce à ce serveur, vous pouvez ajouter presque toutes les couches disponibles dans le [portail cartographique de la Confédération](https://map.geo.admin.ch) directement dans votre SIG (mais toujours sous forme d'image...).
 
 Voici le lien à utiliser dans QGIS pour le serveur WMS de Swisstopo:
 
@@ -107,13 +107,15 @@ De manière pratique, il y a plusieurs façon d'organiser les données et les pr
 
 2. À l'intérieur du dossier `gis`, vous créez un dossier `data`. Pour chaque jeu de données SIG que vous téléchargez de quelque part, vous allez créer un sous-dossier à l'intérieur de ce dossier (il est aussi possible de créer des sous-dossiers dans un sous-dossier, il faut juste que ce soit logique et que ça ne change plus une fois que c'est défini). Donc pour un jeu le jeu de données de Swisstopo, vous pourrez créer un dossier `swisstopo` à l'intérieur de `data`. Ce sont les données que vous allez utiliser pour l'ensemble de vos projets SIG. **Ne modifiez pas ces données, ce sont les données originales** (vous pouvez éventuellement changer le format des données, mais sans en changer le contenu).
 
-3 .Pour chaque projet SIG que vous faites, vous créez un dossier dans `gis` (vous pouvez aussi faire un sous-dossier projets et créer un dossier par projet à l'intérieur si vous préférez). Dans chaque dossier de projet, vous créez à nouveau un dossier `data` avec les données spécifiques du projet, ensemble avec votre fichier de projet.
+3. Pour chaque projet SIG que vous faites, vous créez un dossier dans `gis` (vous pouvez aussi faire un sous-dossier projets et créer un dossier par projet à l'intérieur si vous préférez). Dans chaque dossier de projet, vous créez à nouveau un dossier `data` avec les données spécifiques du projet, ensemble avec votre fichier de projet.
 
    À la fin, vous aurez une structure qui ressemblera à quelque chose comme ça:
 
    ![](assets/structure-projets-sig-annot.png)
 
-La vidéo ... montre cette structure de manière concrète.
+
+La vidéo [«QGIS: Structurer les fichiers et dossiers de vos projets SIG»](https://youtu.be/ROI3_h5cFvg) montre cette structure de manière concrète.
+
 
 ### Exercice
 
