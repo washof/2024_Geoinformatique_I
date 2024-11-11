@@ -24,6 +24,13 @@ Tom Beucler
 
 ---
 
+# Quiz
+
+- pas de quiz cette semaine
+
+
+---
+
 # Objectifs
 
 - comprendre ce que c'est un SIG et la géomatique
@@ -246,3 +253,18 @@ Le projet contient:
     - extraire une archive ZIP
     - inspecter le contenu d'une archive ZIP (Windows et Linux suelement)
     - créer une archive ZIP
+
+---
+
+# La suite...
+
+- Exercice: démarrer avec QGIS
+
+- Projet individuel:
+    - Instructions générales
+    - Zone d'étude
+    - Étape 1
+
+- Demain:
+    - Les SIG par la programmation
+    - Cartopy & PyQGIS
