@@ -132,4 +132,9 @@ Python peut être utilisé de plusieurs façons:
 
 # Limites des scripts
 
-- 
+- Prend parfois plus de temps à mettre en place
+    - mais: on peut profitez des scripts déjà écrits, on devient de plus en plus rapide
+
+- Certaines tâches graphiques sont difficiles, p.ex.
+    - la numérisation de géométries dans un SIG
+    
